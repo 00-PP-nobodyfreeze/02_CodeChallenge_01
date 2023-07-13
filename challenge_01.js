@@ -9,14 +9,18 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
+// Zahl 1 und Zahl 2 als Variablen deklarieren
+let zahl1, zahl2;
+
 // Zahl 1 eingeben
-var zahl1 = parseFloat(prompt("Geben Sie die 1. Zahl ein:"));
+zahl1 = parseFloat(prompt("Geben Sie die 1. Zahl ein:"));
 
 // Zahl 2 eingeben
-var zahl2 = parseFloat(prompt("Geben Sie die 2. Zahl ein:"));
+zahl2 = parseFloat(prompt("Geben Sie die 2. Zahl ein:"));
 
-// Summe berechnen
-var summe = zahl1 + zahl2;
+// Rechenschritt anzeigen und Summe der beiden Zahlen berechnen
+let summe = zahl1 + zahl2;
+console.log("Rechenschritt: " + zahl1 + " + " + zahl2 + " = " + summe);
 
 // Summe in die Konsole ausgeben
 console.log("Die Summe der Zahlen ist: " + summe);
